@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!-- menu for the book detail screen -->
+    <item
+        android:id="@+id/showBids"
+        android:title="@string/showBids" />
+    <item
+        android:id="@+id/update"
+        android:title="@string/update" />
+    <item
+        android:id="@+id/delete"
+        android:title="@string/delete" />
+</menu>

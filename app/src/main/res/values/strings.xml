@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">Bookverse</string>
+    <string name="app_title_cap">BOOKVERSE</string>
+    <string name="login">Sign In</string>
+    <string name="register">Register</string>
+    <string name="register_main">Create Account</string>
+    <string name="createAccount">Create Account</string>
+    <string name="lblName">Name<font color='#FF0000'>*</font>:</string>
+    <string name="editName">Name</string>
+    <string name="lblEmail">Email<font color='#FF0000'>*</font>:</string>
+    <string name="lblPw">Password<font color='#FF0000'>*</font>:</string>
+    <string name="lblAdd1">Address Line:</string>
+    <string name="lblCity">City<font color='#FF0000'>*</font>:</string>
+    <string name="lblProvince">Province<font color='#FF0000'>*</font>:</string>
+    <string name="lblZip">Postal Code<font color='#FF0000'>*</font>:</string>
+    <string name="editEmail">Email</string>
+    <string name="editPassword">Password</string>
+    <string name="editAddress">Address</string>
+    <string name="editCity">City</string>
+    <string name="editProvince">Province</string>
+    <string name="editZip">Postal Code</string>
+    <string name="lblCountry">Country<font color='#FF0000'>*</font>:</string>
+    <string name="editCountry">Country</string>
+    <string name="defaultCountry">Canada</string>
+    <string name="tabBook">Books</string>
+    <string name="tabAuction">Auctions</string>
+    <string name="addBook">Add Book</string>
+    <string name="lblTitle">Title<font color='#FF0000'>*</font>:</string>
+    <string name="editTitle">Title</string>
+    <string name="lblAuthor">Author<font color='#FF0000'>*</font>:</string>
+    <string name="editAuthor">Author</string>
+    <string name="lblYear">Year:</string>
+    <string name="editYear">Year</string>
+    <string name="lblGenre">Genre:</string>
+    <string name="editGenre">Genre</string>
+    <string name="lblIsbn">ISBN:</string>
+    <string name="editIsbn">ISBN</string>
+    <string name="editPrice">Price</string>
+    <string name="lblPrice">Price<font color='#FF0000'>*</font>:</string>
+    <string name="selectImage">Select Image<font color='#FF0000'>*</font></string>
+    <string name="book_detail">Book Detail</string>
+    <string name="Buy">Buy</string>
+    <string name="update">Update</string>
+    <string name="delete">Delete</string>
+    <string name="lblEndTime">End Date<font color='#FF0000'>*</font>:</string>
+    <string name="addAuction">Add Auction</string>
+    <string name="auction_detail">Auction Detail</string>
+    <string name="add_bid">Place a Bid</string>
+    <string name="editbid">Type your bid price here.</string>
+    <string name="showBids">Show Bids</string>
+    <string name="bid_list">List of Bidders</string>
+    <string name="updateProfile">Update Profile</string>
+    <string name="boughtbook_list">Books Bought</string>
+    <string name="boughtauction_list">Auctions Won</string>
+    <string name="offer_list">Auction Offers Sent</string>
+    <string name="chat_list">Chats</string>
+    <string name="lblPriceAuction">Starting Price<font color='#FF0000'>*</font>:</string>
+    <!-- Strings used for fragments for navigation -->
+
+</resources>

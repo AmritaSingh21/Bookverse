@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/download"
+    android:backgroundTint="#AAFFFFFF"
+    android:backgroundTintMode="src_over"
+    android:orientation="vertical"
+    tools:context=".UpdateProfileActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+        <TextView
+            android:id="@+id/header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Update Profile"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+    </androidx.appcompat.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/lblName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/lblName"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="20dp"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="@string/editName"
+                android:importantForAutofill="no"
+                android:inputType="textPersonName"
+                android:textSize="25sp"
+                tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
+
+            <TextView
+                android:id="@+id/lblAdd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:text="@string/lblAdd1"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="20dp"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="@string/editAddress"
+                android:importantForAutofill="no"
+                android:inputType="text"
+                android:textSize="25sp"
+                tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
+
+            <TextView
+                android:id="@+id/lblCity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:text="@string/lblCity"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editCity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="20dp"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="@string/editCity"
+                android:importantForAutofill="no"
+                android:inputType="textAutoComplete"
+                android:textSize="25sp"
+                tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
+
+            <TextView
+                android:id="@+id/lblProvince"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:text="@string/lblProvince"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editProvince"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="20dp"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="@string/editProvince"
+                android:importantForAutofill="no"
+                android:inputType="textAutoComplete"
+                android:textSize="25sp"
+                tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
+
+            <TextView
+                android:id="@+id/lblCountry"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:text="@string/lblCountry"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editCountry"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="20dp"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="@string/editCountry"
+                android:importantForAutofill="no"
+                android:inputType="textAutoComplete"
+                android:textSize="25sp"
+                tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
+
+            <TextView
+                android:id="@+id/lblZip"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:text="@string/lblZip"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editZip"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="20dp"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="@string/editZip"
+                android:importantForAutofill="no"
+                android:inputType="textPostalAddress"
+                android:textSize="25sp"
+                tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/errorMsg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text=""
+        android:textColor="#FF0000"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/updateBtn"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="10dp"
+        android:onClick="updateProfile"
+        android:text="@string/updateProfile"
+        android:textSize="20sp"
+        app:cornerRadius="20dp"
+        tools:ignore="TouchTargetSizeCheck" />
+
+</LinearLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/home_menu">
+    <!-- menu for the navigation bar -->
+    <item
+        android:id="@+id/menu_header"
+        android:title="Search Filters"
+        android:enabled="false"
+        android:checkable="false"/>
+    <group>
+    <item
+        android:id="@+id/searchTitle"
+        android:title="Title"
+        android:checkable="true"
+        android:checked="true"/>
+    <item
+        android:id="@+id/searchAuthor"
+        android:title="Author"
+        android:checkable="true"
+        android:checked="false"/>
+    <item
+        android:id="@+id/searchNearby"
+        android:title="Nearby Sellers"
+        android:checkable="true"
+        android:checked="false"
+        android:visible="false"/>
+    </group>
+</menu>
